@@ -1,7 +1,7 @@
 class script(object):
-    START_TXT = """<b>Hello {}</b>
-
-<i>Iam A Simple Auto Filter + Manual Filter + Extra Features Bot. I Can Provide Movies In Telegram Groups.I Can Also Add Filters In Telegram Groups.  Just Add Me To Your Group And Enjoy</i>"""
+    START_TXT = """<b>𝖧ᴇʟʟᴏ {} 🙋🏻‍♂️
+𝖬ʏ 𝖭ᴀᴍᴇ ɪs <a href='https://t.me/mcmoviesData2_Bot'>Lᴇᴠɪ .</a> 𝖠 𝖲ᴍᴀʀᴛ 𝖱ᴏʙᴏᴛ 𝖶ɪᴛʜ 𝖬ᴀɴʏ 𝖠ᴍᴀᴢɪɴɢ 𝖥ᴇᴀᴛᴜʀᴇs. 𝖨 𝖢ᴀɴ 𝖯ʀᴏᴠɪᴅᴇ 𝖬ᴏᴠɪᴇs & 𝖧ᴇʟᴘ 𝖸ᴏᴜ 𝖳ᴏ 𝖬ᴀɴᴀɢᴇ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘs, 𝖩ᴜsᴛ 𝖠ᴅᴅ 𝖬ᴇ 𝖳ᴏ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘ 𝖠s 𝖠ᴅᴍɪɴ 𝖠ɴᴅ 𝖤ɴᴊᴏʏ.....🥰</b>
+"""
     HELP_TXT = """<b>Hᴇʟʟᴏ {}
 Welcome to Help Area 1 🎁</b>"""
     HELOP_TXT = """<b>Hᴇʟʟᴏ {}
@@ -17,7 +17,7 @@ Welcome to Help Area 3 🎁</b>"""
     SPSHIVA3_TXT = """<b><i>This Is The Module Page Info</i>
 
 🔰 Your Taken Page Is 3/3 📖</b>"""
-    ABOUT_TXT = """<b>🤖 𝖡ᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/Spidey_Autofilterbot'>sᴘɪᴅᴇʏ</a>
+    ABOUT_TXT = """<b>🤖 𝖡ᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/Cshowl_bot'>Uʀ ɢғ</a>
 
 📝 𝖫ᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>𝖯ʏᴛʜᴏɴ</a>
 
@@ -25,15 +25,15 @@ Welcome to Help Area 3 🎁</b>"""
 
 📡 𝖧ᴏsᴛᴇᴅ ᴏɴ : <a href='http://heroku.com/'>𝖧ᴇʀᴏᴋᴜ</a>
 
-👨‍💻 𝖣ᴇᴠᴇʟᴏᴘᴇʀ : <a href='http://t.me/OGGY123kph'>𝖲ʜɪᴠᴀ</a>
+👨‍💻 𝖣ᴇᴠᴇʟᴏᴘᴇʀ : <a href='http://t.me/iAmLiKu1'>Csシ︎ʟɪᴋᴜ</a>
 
-📃 𝖲ᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/kgf_2_movie_r'>𝖢ʟɪᴄᴋ ʜᴇʀᴇ</a>
+📃 𝖲ᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/+_-SVJARYJwA3NmJl'>ᴍᴄ ᴏᴛᴛ</a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/Coby_Support'>𝖬𝖧 ʙᴏᴛs</a>
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/+oMiWi94WoAQ0MmY5'>ᴍᴄ ᴏᴛᴛ</a>
 
-📢 𝖴ᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+NeK_dvXeatwyMWRl'>𝖬𝖧 ʙᴏᴛs</a></b>"""
+📢 𝖴ᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+_-SVJARYJwA3NmJl'>ᴍᴄ ᴏᴛᴛ</a></b>"""
     
-    FILE_TXT = """➤ Help: File Store Module..🛃
+    FILE_TXT = """➤ Help: File Store Module..💱
 
 <b><i>By Using This Module You Can Store Media,Files In My Database And I Will Give You A Permanent Link  To Access The Saved Media/Files.If You Want To Add Files From A Public Channel Send The File Link Only Or Want To Add Files From A Privet Channesl You Must Make Me Admin On The Channel To Access Media/Files...</i></b>
 
@@ -46,7 +46,7 @@ Welcome to Help Area 3 🎁</b>"""
 <b><i>⪼ Example ›</i></b>
 <code>/batch https://t.me/c/1541932075/4957 https://t.me/c/1541932075/4958</code>
 
-<b>Credits</b> ›› <a href=https://t.me/moviehubgroupp><b>MH-UPDATES</b></a>"""
+<b>Credits</b> ›› <a href=https://t.me/MC_OTT_LINK><b>ᴍᴄ ᴄʟᴜʙ</b></a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 •/whois :-give a user full details"""
@@ -59,20 +59,20 @@ Note:- Give a user details
 3. /Runs - Some Random Dialogues
 4. /Goal or /Shoot - To Make A Goal Or Shoot 
 5. /luck or /cownd - Spin And Try Your Luck"""
-    DEPLOY_TXT = """<b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?</b> 
+    DEPLOY_TXT = """<b>ᴅᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ ʙʀᴏᴏ?</b> 
   
-<b>✮ Deploy Tutorial ››</b> <i><b>https://youtu.be/kB9TkCs8cX0</b></i>
+<b>✮ ᴊᴏɪɴ ʙʀᴏ ››</b> <i><b>https://t.me/MC_OTT_LINK</b></i>
 
-<b>𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙷𝙴 𝙰𝙹𝙰𝚇-𝙿𝚁𝙾-𝙼𝙰𝚇 𝚁𝙴𝙿𝙾 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 <a href=https://t.me/Aadhi011>𝙰𝙰𝙳𝙷𝙸</a></b>
+<b>ᴏᴡɴᴇʀ ᴏғ ᴛʜɪs ʙᴏᴛ <a href=https://t.me/iAmLiKu1>Lɪᴋᴜ Cs</a></b>
 
-<b>𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴</b>
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/MWUpdatez><b>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
+<b>ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</b>
+Oᴡɴ ɢʀᴏᴜᴘ ›› <a href=https://t.me/+oMiWi94WoAQ0MmY5><b>ᴍᴏᴠɪᴇs ᴄʟᴜʙ</b></a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. ᗩᒍᗩ᙭ should have admin privillage.
+1. Iᴍ should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -154,11 +154,14 @@ Do as you wish with telegra.ph module!
 • This Command Is Available in goups and pms
 • This Command Can be used by everyone"""
 
-    PRIVATEBOT_TXT = """<b>𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃 𝙵𝙾𝚁 𝚈𝙾𝚄</b>
-<b>›› 𝙳𝙾 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝙰 𝙱𝙾𝚃 𝚂𝙰𝙼𝙴 𝙻𝙸𝙺𝙴 𝚃𝙷𝙸𝚂</b>
-<b>›› 𝚆𝙸𝚃𝙷 𝙰𝙻𝙻 𝚈𝙾𝚄𝚁 𝙲𝚁𝙴𝙳𝙸𝚃𝚂</b>
-<b>›› 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽𝙴𝚁𝚂𝙷𝙸𝙿</b>
-<b>›› 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝙴 <a href=https://t.me/Aadhi011>𝙰𝙰𝙳𝙷𝙸</a></b>"""
+    PRIVATEBOT_TXT = """<b>ᴅᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ ʙʀᴏᴏ?</b> 
+  
+<b>✮ ᴊᴏɪɴ ʙʀᴏ ››</b> <i><b>https://t.me/MC_OTT_LINK</b></i>
+
+<b>ᴏᴡɴᴇʀ ᴏғ ᴛʜɪs ʙᴏᴛ <a href=https://t.me/iAmLiKu1>Lɪᴋᴜ Cs</a></b>
+
+<b>ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</b>
+Oᴡɴ ɢʀᴏᴜᴘ ›› <a href=https://t.me/+oMiWi94WoAQ0MmY5><b>ᴍᴏᴠɪᴇs ᴄʟᴜʙ</b></a>"""
 
     JSON_TXT ="""<b>JSON:</b>
 
@@ -295,10 +298,10 @@ This Commands Helps You To <b>Report</b> A Message Or A User To The Admins Of Th
 𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
 
 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
-• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/8xp8s6tj0Ts)
+• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/8x8s6tj0Ts)
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
-🔖<code>/mp4 https://youtu.be/8xp8s6tj0Ts</code>
-🔖<code>/video https://youtu.be/8xp8s6tj0Ts</code>"""
+🔖<code>/mp4 https://youtu.be/8xp8stj0Ts</code>
+🔖<code>/video https://youtu.be/8xps6tj0Ts</code>"""
 
     ZOMBIES_TXT = """<b>📚 HELP : Kick Users</b>
 
@@ -339,7 +342,7 @@ Helps You To Download Any Youtube Video Thumbnail 🖼️
 𝘛𝘺𝘱𝘦 /ytthumb 𝘈𝘯𝘥 𝘝𝘪𝘥𝘦𝘰 𝘓𝘪𝘯𝘬
 
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦
-<code>/ytthumb https://youtu.be/8xp8s6tj0Ts</code>"""
+<code>/ytthumb https://youtu.be/8xp8stj0Ts</code>"""
 
     ABOOK_TXT = """<b>📚 HELP : AudioBook</b>
 
