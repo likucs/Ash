@@ -956,11 +956,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ 👥', url='https://t.me/Coby_Support')
+            InlineKeyboardButton('👥 ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ 👥', url='https://t.me/+oMiWi94WoAQ0MmY5')
             ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('⛔ ᴄʟᴏsᴇ', callback_data='close_data'),
-            InlineKeyboardButton('📝 sᴏᴜʀᴄᴇ', url='https://t.me/kgf_2_movie_r')
+            InlineKeyboardButton('🌐 ᴏᴛᴛ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+tkAjvYxAr7VmZjY1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
