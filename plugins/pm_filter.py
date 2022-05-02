@@ -86,7 +86,7 @@ async def fil_mod(client, message):
       except: 
          return await message.reply("**ɪɴᴄᴏᴍᴘʟᴇᴛᴇ ᴄᴏᴍᴍᴀɴᴅ...**")
       
-      m = await message.reply("**🛡️ Sᴇᴛᴛɪɴɢs 🛡️**")
+      m = await message.reply("**💱 Sᴇᴛᴛɪɴɢs 💱**")
 
       if args in mode_on:
           FILTER_MODE[str(message.chat.id)] = "True" 
@@ -151,7 +151,7 @@ async def give_filter(client,message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("😁 𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱,\n\n 𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳.😌", show_alert=True)
+        return await query.answer("😁 ʜᴇʏ ʙʀᴏ,\n\n ʀᴇǫᴜᴇsᴛ ʏᴏᴜʀ ᴏᴡɴ.😌", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -201,8 +201,8 @@ async def next_page(bot, query):
     btn.insert(1,
         [
             InlineKeyboardButton(f'📂 ғɪʟᴇs: {len(files)}', 'dupe'),
-            InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tipss'),
-            InlineKeyboardButton(f'📮 ɪɴғᴏ', 'infoo')
+            InlineKeyboardButton(f'🔖 ᴛɪᴘs', 'tipss'),
+            InlineKeyboardButton(f'🧾 ɪɴғᴏ', 'infoo')
         ]
     )
 
@@ -217,7 +217,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton("ᴘᴀɢᴇs", callback_data="pages"),
              InlineKeyboardButton(f"{round(int(offset) / 10) + 1} / {round(total / 10)}",
                                   callback_data="pages"),
-             InlineKeyboardButton("⏪ ᴘʀᴇᴠɪᴏᴜs", callback_data=f"next_{req}_{key}_{off_set}")]
+             InlineKeyboardButton("⬅️ ᴘʀᴇᴠɪᴏᴜs", callback_data=f"next_{req}_{key}_{off_set}")]
         )
     elif off_set is None:
         btn.append(
@@ -229,9 +229,9 @@ async def next_page(bot, query):
     else:
         btn.append(
             [
-                InlineKeyboardButton("⏪ ᴘʀᴇᴠɪᴏᴜs", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("⬅️ ᴘʀᴇᴠɪᴏᴜs", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"{round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("ɴᴇxᴛ ⏩️", callback_data=f"next_{req}_{key}_{n_offset}")]
+                InlineKeyboardButton("ɴᴇxᴛ ➡️", callback_data=f"next_{req}_{key}_{n_offset}")]
         )
 
     try:
@@ -494,13 +494,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ms = await client.send_cached_media(
                     chat_id=CH_FILTER,
                     file_id=file_id,
-                    caption=f'<b>Hey 👋 {query.from_user.mention} 😍\n\n🔖 Name : <i><a href=https://t.me/Spidey_Files>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 5 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക ⚠️</i></b>',
+                    caption=f'<b>Hey 👋 {query.from_user.mention} 😍\n\n🔖 Name : <i><a href=https://t.me/+bCjhq0xI8xsyNmQ1>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 5 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക ⚠️</i></b>',
                     protect_content=True if ident == "filep" else False 
                 )
                 msg1 = await query.message.reply(
                 f'<b><i>Hey 👋 {query.from_user.mention} 😍 \n\n📬 Your File Is Ready 👇</i></b>\n\n'
-                f'<b><i>🔖 Name : <a href=https://t.me/Spidey_Files>{title}</a></i></b>\n\n'
-                f'<b><i>🎗 Size : {size}</b></i>\n\n'
+                f'<b><i>🔰 Name : <a href=https://t.me/+bCjhq0xI8xsyNmQ1>{title}</a></i></b>\n\n'
+                f'<b><i>💱 Size : {size}</b></i>\n\n'
                 '<i>Click The Below Button For Files ⬇️</i>',
                 True,
                 'html',
@@ -790,11 +790,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📣 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+NeK_dvXeatwyMWRl'),
-            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ', url='https://t.me/Coby_Support')
+            InlineKeyboardButton('📣 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+_-SVJARYJwA3NmJl'),
+            InlineKeyboardButton('👥 ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ', url='https://t.me/+oMiWi94WoAQ0MmY5')
             ],[      
-            InlineKeyboardButton('🎁 ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('💱 ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🌐 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -893,7 +893,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢ-ᴛʀᴀɴs', callback_data='gtrans'),
             InlineKeyboardButton('ғɪʟᴇ-sᴛᴏʀᴇ', callback_data='newdata')
             ],[
-            InlineKeyboardButton('🔮 sᴛᴀᴛᴜs 🔮', callback_data='stats')
+            InlineKeyboardButton('♻️ sᴛᴀᴛᴜs ♻️', callback_data='stats')
             ],[
             InlineKeyboardButton('⏪ ʙᴀᴄᴋ', callback_data='helop'),
             InlineKeyboardButton('⏺️  3/3  ⏺️', callback_data='spshiva3'),
@@ -1479,9 +1479,9 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'📂 ғɪʟᴇs: {len(files)}', 'dupe'),
-            InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tipss'),
-            InlineKeyboardButton(f'📮 ɪɴғᴏ', 'infoo')
+            InlineKeyboardButton(f'📫 ғɪʟᴇs: {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'♦️ ᴛɪᴘs', 'tipss'),
+            InlineKeyboardButton(f'💱 ɪɴғᴏ', 'infoo')
         ]
     )
 
