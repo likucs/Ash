@@ -66,7 +66,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/Coby_Support')
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/+oMiWi94WoAQ0MmY5')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
